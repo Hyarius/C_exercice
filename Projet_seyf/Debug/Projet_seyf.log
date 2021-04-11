@@ -1,0 +1,3 @@
+﻿  solver.c
+C:\Users\Hywa\source\repos\Projet_seyf\Projet_seyf\srcs\solver.c(12,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Projet_seyf.vcxproj -> C:\Users\Hywa\source\repos\Projet_seyf\Debug\Projet_seyf.exe
