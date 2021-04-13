@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="srcs\checker.c" />
+    <ClCompile Include="srcs\Back\checker.c" />
+    <ClCompile Include="srcs\Back\checker_main.c" />
+    <ClCompile Include="srcs\Back\solver.c" />
     <ClCompile Include="srcs\main.c" />
     <ClCompile Include="srcs\Partie_cinq\functeur.c" />
     <ClCompile Include="srcs\Partie_deux\printer.c" />
@@ -28,7 +30,6 @@
     <ClCompile Include="srcs\Partie_six\liste.c" />
     <ClCompile Include="srcs\Partie_trois\memory.c" />
     <ClCompile Include="srcs\Partie_un\operator.c" />
-    <ClCompile Include="srcs\solver.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes\studies.h" />

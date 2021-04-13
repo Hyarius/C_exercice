@@ -1,5 +1,6 @@
 ﻿  checker.c
-  main.c
+  checker_main.c
+  solver.c
   functeur.c
   printer.c
   string.c
@@ -7,6 +8,6 @@
   liste.c
   memory.c
   operator.c
-  solver.c
+  main.c
   Generating Code...
   Projet_seyf.vcxproj -> C:\Users\Hywa\source\repos\Projet_seyf\Debug\Projet_seyf.exe

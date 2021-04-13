@@ -91,6 +91,7 @@ t_list* list_search(t_list* list, void *target, bool (*compare_funct)(void*, voi
 
 
 // Back end function
+int checker_main();
 void initiate();
 int generate_nbr(const int min, const int max);
 

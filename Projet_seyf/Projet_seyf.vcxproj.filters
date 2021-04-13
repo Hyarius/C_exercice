@@ -39,12 +39,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="srcs\main.c">
-      <Filter>Source Files\Back</Filter>
-    </ClCompile>
-    <ClCompile Include="srcs\solver.c">
-      <Filter>Source Files\Back</Filter>
-    </ClCompile>
     <ClCompile Include="srcs\Partie_un\operator.c">
       <Filter>Source Files\Partie 1 - Mathematique</Filter>
     </ClCompile>
@@ -66,8 +60,17 @@
     <ClCompile Include="srcs\Partie_six\liste.c">
       <Filter>Source Files\Partie 6 - Liste chainée</Filter>
     </ClCompile>
-    <ClCompile Include="srcs\checker.c">
+    <ClCompile Include="srcs\Back\checker.c">
       <Filter>Source Files\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Back\checker_main.c">
+      <Filter>Source Files\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Back\solver.c">
+      <Filter>Source Files\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\main.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
