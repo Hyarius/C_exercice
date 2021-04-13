@@ -37,12 +37,12 @@ bool string_is_printable(char* string)
 
 void string_to_lower(char* string)
 {
-
+	string[0] = NO_AWNSER;
 }
 
 void string_to_upper(char* string)
 {
-
+	string[0] = NO_AWNSER;
 }
 
 bool string_compare(char* string1, char* string2)
@@ -62,32 +62,32 @@ char* string_create(int size)
 
 void string_delete(char** string)
 {
-
+	// NO AWNSER
 }
 
 void string_clear(char* string)
 {
-
+	// NO AWNSER
 }
 
 void string_copy(char* source, char* destination)
 {
-
+	// NO AWNSER
 }
 
 void string_numerous_copy(char* source, int size)
 {
-
+	// NO AWNSER
 }
 
 void string_concatenation(char* source, char* destination)
 {
-
+	// NO AWNSER
 }
 
 void string_numerous_concatenation(char* source, char* destination, int size)
 {
-
+	// NO AWNSER
 }
 
 char* string_research(char* source, char* target)

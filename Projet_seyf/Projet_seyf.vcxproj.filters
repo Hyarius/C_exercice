@@ -54,9 +54,6 @@
     <ClCompile Include="srcs\Partie_trois\memory.c">
       <Filter>Source Files\Partie 3 - Memoire</Filter>
     </ClCompile>
-    <ClCompile Include="srcs\Partie_deux\char.c">
-      <Filter>Source Files\Partie 2 - char et string</Filter>
-    </ClCompile>
     <ClCompile Include="srcs\Partie_quatre\algo.c">
       <Filter>Source Files\Partie 4 - Algorithmie</Filter>
     </ClCompile>

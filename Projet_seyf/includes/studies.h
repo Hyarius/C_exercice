@@ -3,10 +3,9 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
+#include <io.h>
 
 #define NO_AWNSER 0
-
-typedef void (*funct_ptr)(void);
 
 // Operator part
 int addition(int a, int b);
@@ -56,7 +55,7 @@ void print_integer_fd(int fd, int number);
 
 // Memory part
 void* memory_allocation(int size);
-void memory_delete(void* ptr);
+void memory_delete(void** ptr);
 void memory_set(void* ptr, int value, int size);
 void memory_clear(void* ptr, int size);
 void memory_copy(void* source, void* dest, int size);
@@ -99,11 +98,15 @@ int generate_nbr(const int min, const int max);
 #define NB_PART 7
 
 #define PRINT_TEST_NAME(text) if(nb_test !=0)printf("\n\n");nb_test++;printf(" --- %s --- \n", text)
+#define LEAVE_TEST(text) nb_test++;printf("\n --- END OF %s --- \n\n", text)
 #define PRINT_ERROR_OPERATOR(text, a, b, result) printf(text, a, b, result)
 #define PRINT_ERROR_STRLEN(text, str, size) printf(text, str, size)
 #define PRINT_ERROR_MALLOC_STR(text, size) printf(text, size)
 
 // Checker
+
+typedef void (*funct_ptr)(); 
+
 void check_operation();
 void check_string();
 void check_printer();
