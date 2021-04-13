@@ -20,6 +20,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="srcs\main.c" />
+    <ClCompile Include="srcs\Partie_cinq\functeur.c" />
+    <ClCompile Include="srcs\Partie_deux\char.c" />
+    <ClCompile Include="srcs\Partie_deux\printer.c" />
+    <ClCompile Include="srcs\Partie_deux\string.c" />
+    <ClCompile Include="srcs\Partie_quatre\algo.c" />
+    <ClCompile Include="srcs\Partie_six\liste.c" />
+    <ClCompile Include="srcs\Partie_trois\memory.c" />
+    <ClCompile Include="srcs\Partie_un\operator.c" />
     <ClCompile Include="srcs\solver.c" />
   </ItemGroup>
   <ItemGroup>

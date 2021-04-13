@@ -1,34 +1,45 @@
 #include "studies.h"
 
-int addition(int a, int b)
-{
-	return (NO_AWNSER);
-}
+typedef void (*funct_ptr)(void);
 
-int soustraction(int a, int b)
-{
-	return (NO_AWNSER);
-}
+#define TAB_SIZE 2
 
-int multiplication(int a, int b)
+/*
+int main()
 {
-	return (NO_AWNSER);
-}
+	funct_ptr funct_tab[TAB_SIZE] =
+	{
+		check_operation,
+		check_string
+	};
+	initiate();
 
-int division(int a, int b)
-{
-	return (NO_AWNSER);
+	printf("Quel partie voulez vous lancer : \n1) Arithmetique\n2) Char et String\n");
+	
+	int awnser = -1;
+	while (awnser < 1 || awnser > TAB_SIZE)
+	{
+		printf("Partie a lancer : ");
+		scanf_s("%d", &awnser);
+	}
+	printf("\n");
+	funct_tab[awnser - 1]();
+	
+	return (0);
 }
+*/
 
-char* create_string(int size)
-{
-	return (NO_AWNSER);
-}
+FILE* base_output;
+FILE* stream;
 
 int main()
 {
-	initiate();
-	check_operation();
-	check_creation_string();
+	base_output = stdout;
+	errno_t err;
+	// Reassign "stderr" to "freopen.out":
+	err = freopen_s(&stream, "output.txt", "a+", stdout);
+	char buffer[200];
+	memset(buffer, 0, 200);
+	write(1, "Ceci est un test", strlen("Ceci est un test"));
 	return (0);
 }

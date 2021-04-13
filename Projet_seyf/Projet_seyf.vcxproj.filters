@@ -13,13 +13,61 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Back">
+      <UniqueIdentifier>{4cc83e5c-8ed8-4b55-a5da-64805a35e6b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Partie 3 - Memoire">
+      <UniqueIdentifier>{b682340d-5f73-4825-9ec4-9a4e11282fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Partie 4 - Algorithmie">
+      <UniqueIdentifier>{04f13499-c77f-46a8-9884-93b888a7c358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Partie 5 - Functeur">
+      <UniqueIdentifier>{ac7b83ea-81c9-442a-a0a1-99e166f38515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Partie 2 - char et string">
+      <UniqueIdentifier>{f396e49c-f6dc-42d3-8179-9abcbb7f60df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Partie 1 - Mathematique">
+      <UniqueIdentifier>{13ac944a-3f81-4109-8579-e6ce708aef5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Partie 2.2 - Print">
+      <UniqueIdentifier>{85213635-336f-4b11-964c-54393e76c4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Partie 6 - Liste chainée">
+      <UniqueIdentifier>{523137cb-db9f-4245-93a5-811dc7f4eca7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="srcs\main.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Back</Filter>
     </ClCompile>
     <ClCompile Include="srcs\solver.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Partie_un\operator.c">
+      <Filter>Source Files\Partie 1 - Mathematique</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Partie_deux\string.c">
+      <Filter>Source Files\Partie 2 - char et string</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Partie_trois\memory.c">
+      <Filter>Source Files\Partie 3 - Memoire</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Partie_deux\char.c">
+      <Filter>Source Files\Partie 2 - char et string</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Partie_quatre\algo.c">
+      <Filter>Source Files\Partie 4 - Algorithmie</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Partie_cinq\functeur.c">
+      <Filter>Source Files\Partie 5 - Functeur</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Partie_deux\printer.c">
+      <Filter>Source Files\Partie 2.2 - Print</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Partie_six\liste.c">
+      <Filter>Source Files\Partie 6 - Liste chainée</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

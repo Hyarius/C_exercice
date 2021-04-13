@@ -1,3 +1,4 @@
-﻿  solver.c
-C:\Users\Hywa\source\repos\Projet_seyf\Projet_seyf\srcs\solver.c(12,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  main.c
+C:\Users\Hywa\source\repos\Projet_seyf\Projet_seyf\srcs\main.c(41,7): warning C4013: 'write' undefined; assuming extern returning int
+C:\Users\Hywa\source\repos\Projet_seyf\Projet_seyf\srcs\main.c(42,6): warning C4013: 'read' undefined; assuming extern returning int
   Projet_seyf.vcxproj -> C:\Users\Hywa\source\repos\Projet_seyf\Debug\Projet_seyf.exe
