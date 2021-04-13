@@ -1,45 +1,44 @@
 #include "studies.h"
 
-typedef void (*funct_ptr)(void);
-
-#define TAB_SIZE 2
-
-/*
 int main()
 {
-	funct_ptr funct_tab[TAB_SIZE] =
+	funct_ptr funct_tab[NB_PART] =
 	{
 		check_operation,
-		check_string
+		check_string,
+		check_printer,
+		check_memory,
+		check_algorythmn,
+		check_functeur,
+		check_list
 	};
 	initiate();
 
-	printf("Quel partie voulez vous lancer : \n1) Arithmetique\n2) Char et String\n");
+	printf("Quel partie voulez vous lancer : \n"
+		"1) Arithmetique\n"
+		"2) Char et String\n"
+		"3) Affichage\n"
+		"4) Gestion de memoire\n"
+		"5) Algorithme\n"
+		"6) Pointeur de fonction\n"
+		"7) Liste chainee\n"
+		"8) Quitter\n");
 	
 	int awnser = -1;
-	while (awnser < 1 || awnser > TAB_SIZE)
+	while (awnser != NB_PART + 1)
 	{
-		printf("Partie a lancer : ");
-		scanf_s("%d", &awnser);
+		while (awnser < 1 || awnser > NB_PART + 1)
+		{
+			printf("Partie a lancer : ");
+			scanf_s("%d", &awnser);
+		}
+		printf("\n");
+		if (awnser != NB_PART + 1)
+		{
+			funct_tab[awnser - 1]();
+			awnser = -1;
+		}
 	}
-	printf("\n");
-	funct_tab[awnser - 1]();
 	
-	return (0);
-}
-*/
-
-FILE* base_output;
-FILE* stream;
-
-int main()
-{
-	base_output = stdout;
-	errno_t err;
-	// Reassign "stderr" to "freopen.out":
-	err = freopen_s(&stream, "output.txt", "a+", stdout);
-	char buffer[200];
-	memset(buffer, 0, 200);
-	write(1, "Ceci est un test", strlen("Ceci est un test"));
 	return (0);
 }

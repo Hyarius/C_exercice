@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="srcs\checker.c" />
     <ClCompile Include="srcs\main.c" />
     <ClCompile Include="srcs\Partie_cinq\functeur.c" />
     <ClCompile Include="srcs\Partie_deux\char.c" />

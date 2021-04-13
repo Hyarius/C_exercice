@@ -6,6 +6,8 @@
 
 #define NO_AWNSER 0
 
+typedef void (*funct_ptr)(void);
+
 // Operator part
 int addition(int a, int b);
 int soustraction(int a, int b);
@@ -91,7 +93,21 @@ t_list* list_search(t_list* list, void *target, bool (*compare_funct)(void*, voi
 
 // Back end function
 void initiate();
+int generate_nbr(const int min, const int max);
+
+#define NB_TEST 100
+#define NB_PART 7
+
+#define PRINT_TEST_NAME(text) if(nb_test !=0)printf("\n\n");nb_test++;printf(" --- %s --- \n", text)
+#define PRINT_ERROR_OPERATOR(text, a, b, result) printf(text, a, b, result)
+#define PRINT_ERROR_STRLEN(text, str, size) printf(text, str, size)
+#define PRINT_ERROR_MALLOC_STR(text, size) printf(text, size)
 
 // Checker
-bool check_operation();
-bool check_string();
+void check_operation();
+void check_string();
+void check_printer();
+void check_memory();
+void check_algorythmn();
+void check_functeur();
+void check_list();
