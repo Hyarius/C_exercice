@@ -35,16 +35,6 @@ bool string_is_printable(char* string)
 	return (NO_AWNSER);
 }
 
-void string_to_lower(char* string)
-{
-	string[0] = NO_AWNSER;
-}
-
-void string_to_upper(char* string)
-{
-	string[0] = NO_AWNSER;
-}
-
 bool string_compare(char* string1, char* string2)
 {
 	return (NO_AWNSER);
@@ -75,7 +65,7 @@ void string_copy(char* source, char* destination)
 	// NO AWNSER
 }
 
-void string_numerous_copy(char* source, int size)
+void string_numerous_copy(char* source, char *destination, int size)
 {
 	// NO AWNSER
 }

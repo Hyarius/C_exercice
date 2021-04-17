@@ -1,5 +1,7 @@
 #include "studies.h"
 
+int nb_test = 0;
+
 int checker_main()
 {
 	funct_ptr funct_tab[NB_PART] =

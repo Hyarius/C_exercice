@@ -1,13 +1,4 @@
-﻿  checker.c
-  checker_main.c
-  solver.c
-  functeur.c
-  printer.c
-  string.c
-  algo.c
-  liste.c
-  memory.c
-  operator.c
-  main.c
-  Generating Code...
+﻿  checker_string.c
+C:\Users\Hywa\source\repos\Projet_seyf\Projet_seyf\srcs\Back\checker_string.c(161,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'char *'
+C:\Users\Hywa\source\repos\Projet_seyf\Projet_seyf\srcs\Back\checker_string.c(161,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 5 has type 'char *'
   Projet_seyf.vcxproj -> C:\Users\Hywa\source\repos\Projet_seyf\Debug\Projet_seyf.exe

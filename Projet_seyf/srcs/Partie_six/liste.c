@@ -1,6 +1,9 @@
 #include "studies.h"
 
 /*
+* 
+* Voici la structure qui decrit une t_list, je vous invite a regarder sur le net pour plus d'info
+* 
 typedef struct s_list
 {
 	void* content;

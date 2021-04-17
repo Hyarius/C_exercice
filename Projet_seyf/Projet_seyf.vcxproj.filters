@@ -60,17 +60,35 @@
     <ClCompile Include="srcs\Partie_six\liste.c">
       <Filter>Source Files\Partie 6 - Liste chainée</Filter>
     </ClCompile>
-    <ClCompile Include="srcs\Back\checker.c">
-      <Filter>Source Files\Back</Filter>
-    </ClCompile>
-    <ClCompile Include="srcs\Back\checker_main.c">
-      <Filter>Source Files\Back</Filter>
-    </ClCompile>
     <ClCompile Include="srcs\Back\solver.c">
       <Filter>Source Files\Back</Filter>
     </ClCompile>
     <ClCompile Include="srcs\main.c">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Back\checker_operator.c">
+      <Filter>Source Files\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Back\checker_printer.c">
+      <Filter>Source Files\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Back\checker_string.c">
+      <Filter>Source Files\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Back\checker_algo.c">
+      <Filter>Source Files\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Back\checker_funct.c">
+      <Filter>Source Files\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Back\checker_list.c">
+      <Filter>Source Files\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Back\checker_main.c">
+      <Filter>Source Files\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Back\checker_memory.c">
+      <Filter>Source Files\Back</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

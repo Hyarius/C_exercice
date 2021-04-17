@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,8 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="srcs\Back\checker.c" />
+    <ClCompile Include="srcs\Back\checker_algo.c" />
+    <ClCompile Include="srcs\Back\checker_funct.c" />
+    <ClCompile Include="srcs\Back\checker_list.c" />
     <ClCompile Include="srcs\Back\checker_main.c" />
+    <ClCompile Include="srcs\Back\checker_memory.c" />
+    <ClCompile Include="srcs\Back\checker_operator.c" />
+    <ClCompile Include="srcs\Back\checker_printer.c" />
+    <ClCompile Include="srcs\Back\checker_string.c" />
     <ClCompile Include="srcs\Back\solver.c" />
     <ClCompile Include="srcs\main.c" />
     <ClCompile Include="srcs\Partie_cinq\functeur.c" />

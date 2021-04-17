@@ -2,6 +2,6 @@
 
 int main()
 {
-	printf("Hello world\n");
+	checker_main();
 	return (0);
 }

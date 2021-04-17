@@ -3,7 +3,12 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
+#include <string.h>
+#include <stdlib.h>
 #include <io.h>
+
+extern int nb_test;
 
 #define NO_AWNSER 0
 
@@ -28,15 +33,13 @@ bool string_is_digit(char* string);
 bool string_is_alphanum(char* string);
 bool string_is_ascii(char* string);
 bool string_is_printable(char* string);
-void string_to_lower(char* string);
-void string_to_upper(char* string);
 bool string_compare(char* string1, char* string2);
 bool string_numerous_compare(char* string1, char* string2, int size);
 char* string_create(int size);
 void string_delete(char** string);
 void string_clear(char *string);
 void string_copy(char* source, char* destination);
-void string_numerous_copy(char* source, int size);
+void string_numerous_copy(char* source, char* destination, int size);
 void string_concatenation(char* source, char* destination);
 void string_numerous_concatenation(char* source, char* destination, int size);
 char* string_research(char* source, char* target);
